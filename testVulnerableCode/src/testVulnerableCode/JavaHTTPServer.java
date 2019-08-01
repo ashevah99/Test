@@ -157,6 +157,7 @@ public class JavaHTTPServer implements Runnable{
 			System.err.println("Server error : " + ioe);
 		} finally {
 			try {
+				
 				in.close();
 				out.close();
 				dataOut.close();
