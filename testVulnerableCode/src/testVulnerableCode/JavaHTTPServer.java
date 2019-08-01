@@ -188,6 +188,7 @@ public class JavaHTTPServer implements Runnable{
 		return fileData;
 	}
 	
+	
 	// return supported MIME Types
 	private String getContentType(String fileRequested) {
 		if (fileRequested.endsWith(".htm")  ||  fileRequested.endsWith(".html"))
