@@ -80,7 +80,7 @@ public class JavaHTTPServer implements Runnable{
 			dataOut = new BufferedOutputStream(connect.getOutputStream());
 			Random r = new Random();
 		    System.out.println(Long.toHexString(r.nextLong()));
-			
+		
 			// get first line of the request from the client
 			String input = in.readLine();
 			// we parse the request with a string tokenizer
