@@ -31,7 +31,8 @@ class JavaHTTPServerTest {
 		JavaHTTPServer test = new JavaHTTPServer();
 		int a = 3;
 		int b = 13;
-		assertEquals(test.add(a, b), 16);
+		assertEquals(11, test.add(2, 4));
+		assertEquals(16, test.add(a, b));
 		
 	}
 
